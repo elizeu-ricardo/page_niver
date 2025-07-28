@@ -13,7 +13,7 @@ const contagem = setInterval(function() {
     const minutosMs = 1000 * 60;
 
     const diaNiver = Math.floor(distanciaDoNiver / diasMs);
-    const horasNiver = Math.floor((distanciaDoNiver % diaNiver) / horasMs);
+    const horasNiver = Math.floor((distanciaDoNiver % diasMs) / horasMs);
     const minAteNiver = Math.floor((distanciaDoNiver % horasMs) / minutosMs);
     const segundsNiver = Math.floor((distanciaDoNiver % minutosMs) / 1000);
 
