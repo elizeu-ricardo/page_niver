@@ -1,0 +1,29 @@
+@use 'variables';
+@use 'hero';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(variables.$corBgPrimary, variables.$corBgSecondary, variables.$corBgTree);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #4f2ac3;
+    padding: 0 16px;
+    text-decoration: none;
+    color: variables.$corTextBtn;
+    font-size: 18px;
+}
